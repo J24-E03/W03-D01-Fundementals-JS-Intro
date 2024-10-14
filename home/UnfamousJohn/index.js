@@ -47,27 +47,27 @@ if (num2 >= num1 && num2 >= num3) {
  */
 const myGrade1 = 93;
 if (myGrade1 >= 90) {
-    console.log("**A**");
+    console.log("A");
 }
 
 const myGrade2 = 93;
 if (myGrade2 >= 80 && myGrade2 <= 89) {
-    console.log("**B**");
+    console.log("B");
 }
 
 const myGrade3 = 73;
 if (myGrade3 >= 70 && myGrade3 <= 79) {
-    console.log("**C**");
+    console.log("C");
 }
 
 const myGrade4 = 63;
 if (myGrade4 >= 60 && myGrade4 <= 69) {
-    console.log("**D**");
+    console.log("D");
 }
 
 const myGrade5 = 53; 
 if (myGrade5 < 60) {
-    console.log("**F**");
+    console.log("F");
 }
 
 /**
