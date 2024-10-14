@@ -45,27 +45,27 @@ if (num2 >= num1 && num2 >= num3) {
 /**
  * Exercise 6.
  */
-let myGrade1 = 93;
+const myGrade1 = 93;
 if (myGrade1 >= 90) {
     console.log("**A**");
 }
 
-let myGrade2 = 93;
+const myGrade2 = 93;
 if (myGrade2 >= 80 && myGrade2 <= 89) {
     console.log("**B**");
 }
 
-let myGrade3 = 73;
+const myGrade3 = 73;
 if (myGrade3 >= 70 && myGrade3 <= 79) {
     console.log("**C**");
 }
 
-let myGrade4 = 63;
+const myGrade4 = 63;
 if (myGrade4 >= 60 && myGrade4 <= 69) {
     console.log("**D**");
 }
 
-let myGrade5 = 53; 
+const myGrade5 = 53; 
 if (myGrade5 < 60) {
     console.log("**F**");
 }
@@ -80,7 +80,7 @@ for (let i = 1; i <= 10; i++) {
 /**
  * Exercise 8.
  */
-let myOriginalNumber = 3;
+const myOriginalNumber = 3;
 let myFactorial = 1;
 for (let i = 1; i <= myOriginalNumber; i++) {
     myFactorial *= i;
